@@ -1,0 +1,79 @@
+# ─────────────────────────────
+# 💼 Portfolio by Mattia Russo
+# Using jekyll-theme-yat
+# ─────────────────────────────
+
+title: Mattia Russo
+email: mr25377@essex.ac.uk
+author: matt9891-stack
+description: My portfolio of projects from the MSc in Data Science at the University of Essex
+
+# ─────────────────────────────
+# 🌐 Site configuration
+# ─────────────────────────────
+
+url: "https://matt9891-stack.github.io"
+baseurl: "/portfolio"
+favicon: "/assets/images/favicon.png"
+
+lang: "en"
+
+# ─────────────────────────────
+# 🎨 Theme settings
+# ─────────────────────────────
+
+theme_color: snowwhite
+brand_color: orangered
+night_mode: "auto"
+
+# Header menu (top navigation)
+header_pages:
+  - index.html
+  - about.md
+  - projects.md
+  - contact.md
+
+# ─────────────────────────────
+# 🌍 Languages for translation
+# (Displayed in the language switcher)
+# ─────────────────────────────
+
+translate_langs:
+  - lang: en
+    img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
+    text: English
+
+  - lang: it
+    img: https://cdn.countryflags.com/thumbs/italy/flag-400.png
+    text: Italiano
+
+  - lang: es
+    img: https://cdn.countryflags.com/thumbs/spain/flag-400.png
+    text: Español
+
+# ─────────────────────────────
+# 📰 Blog / Pagination
+# ─────────────────────────────
+
+paginate: 5
+
+# ─────────────────────────────
+# ✍️ Markdown & Plugins
+# ─────────────────────────────
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-spaceship
+
+# ─────────────────────────────
+# 📜 Copyright
+# ─────────────────────────────
+
+copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
