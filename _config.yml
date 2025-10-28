@@ -14,7 +14,7 @@ description: My portfolio of projects from the MSc in Data Science at the Univer
 
 url: "https://matt9891-stack.github.io"
 baseurl: "/portfolio"
-favicon: "/assets/img/DataScience.png"
+favicon: "/assets/img/favicon.png"
 
 lang: "en"
 
