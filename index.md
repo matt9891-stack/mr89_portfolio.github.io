@@ -2,7 +2,7 @@
 layout: home
 title: "Welcome to my portfolio"
 banner:
-  image: "/assets/images/banner.jpg"
+  image: "/assets/img/DataScience.png"
   height: "480px"
   opacity: 0.8
 ---
